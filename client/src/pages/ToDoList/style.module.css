@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    width: 500px;
+    width: 700px;
     margin: 50px auto;
     padding: 10px;
     border-radius: 8px;
@@ -23,14 +23,16 @@
     gap: 10px;
 }
 
-.form input[type="text"] {
+.form input[type="text"],
+select {
     padding: 10px;
     width: 85%;
     border: 1px solid #eee;
     border-radius: 6px;
 }
 
-.form input[type="text"]:focus,
+.form input,
+select[type="text"]:focus,
 .form button[type="submit"]:focus {
     outline: none;
 }
